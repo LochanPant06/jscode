@@ -1,8 +1,14 @@
 // node rough/1st.js
-let val1;
-val1 = 5 ?? 10
-// val1 = null ?? 10
-// val1 = undefined ?? 15
-// val1 = null ?? 10 ?? 20
 
-console.log(val1);
+const map = new Map()
+map.set('IN', "India")
+map.set('USA', "United States of America")
+map.set('Fr', "France")
+map.set('IN', "India")
+
+// for (const [key] of map){
+// console.log(key)};
+
+// for (const key of map){
+//     console.log(key)};
+
