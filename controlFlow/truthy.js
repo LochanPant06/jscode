@@ -13,7 +13,7 @@ else{
     console.log("hey you are not welcomed ")
 }
 
-//+++++++++++++++++++++++++++++++++++++++++++++++++
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++=
 
 const userEmail = []
 
@@ -30,24 +30,27 @@ if (userEmail) {
 //truthy values
 // "0", 'false', " ", [], {}, function(){}
 
-// +++++++++++++++++++checking weather array is empty or not ++++++++++++ 
+// +++++++++++++++++++checking weather array is empty or not +++++++++++++++++
 
 
 // if (userEmail.length === 0) {
 //     console.log("Array is empty");
 // }
-// +++++++++++++++++++checking weather object is empty or not  +++++++++++++++ 
+// +++++++++++++++++++checking weather object is empty or not  ++++++++++++++++++++++ 
 const emptyObj = {}
 
-if (Object.keys(emptyObj).length === 0) {//Object.keys(emptyObj) is array and we can find its length like we do in array 
+if (Object.keys(emptyObj).length === 0) { //Object.keys(emptyObj) is treated as array and we can find its length like we do in array 
     console.log("Object is empty");
 }
 
-// Nullish Coalescing Operator (??): null undefined
+
+// +++++++++++++++++++Nullish Coalescing Operator (??): null undefined+++++++++++++++
+
+
 // kabhi null ya undefine  aajaye tab use mai atta hai nahi to firstvalue le leta hai 
 let val1;
-// val1 = 5 ?? 10
-// val1 = null ?? 10
+// val1 = 5 ?? 10 //  agar dono value hai to 1st wala print ho jayega 
+// val1 = null ?? 10  // used mainly for this condition only , agar ek value null hai to dusri print kar det hai 
 // val1 = undefined ?? 15
 val1 = null ?? 10 ?? 20
 
@@ -65,6 +68,8 @@ iceTeaPrice <= 80 ? console.log("less than 80") : console.log("more than 80")
 
 
 // +++++++++++++++++++++++++ some extra notes to remember ++++++++++++++++++++++++++++++++++
-// false == 0;
-// false == '';
-// 0 == '';
+
+
+// false == 0;  true 
+// false == ''; true 
+// 0 == '';     true  
