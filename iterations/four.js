@@ -26,3 +26,11 @@ for (const key in programming) {
 // for (const key in map) {
 //     console.log(key);
 // }
+
+// +++++++++++++++ note +++++++++
+// maps mai FOR IN  loop work nahi karta hai 
+
+// +++++++++++ RESON WHY FOR IN PROPERTY DONT WORK IN MAPS ++++++++++++++++++
+// What Are Enumerable Properties?
+// Enumerable properties are the ones that can be listed in a loop like for...in.
+// Non-enumerable properties are hidden from loops but can still be accessed directly using dot notation (obj.hidden) or bracket notation (obj['hidden']).
